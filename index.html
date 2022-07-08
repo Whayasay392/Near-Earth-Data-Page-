@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Nasa asteroid chart</title>
+</head>
+<body>
+    <main class="container">
+    <h1>Nasa Near Earth page</h1>
+    <p class="description">A page that provides a line chart & table about daily near earth objects through NASA Rest API </p>
+        <div>
+            <input type="text" id="inputField" placeholder="Input API KEY">
+        <button id="triggerBtn">Fetch Chart</button>
+        </div>
+        <br>
+        <section class="chart-container">
+            <canvas id="myChart" style="width: 100%; height: 100%; " ></canvas>
+        </section>
+    
+    <section id="tableSection">
+    </section>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.8.0/chart.min.js"></script>
+    <script src="/script.js" ></script>
+</body>
+</html>
