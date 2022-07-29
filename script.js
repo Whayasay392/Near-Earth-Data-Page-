@@ -33,9 +33,7 @@ button.addEventListener('click', function(e){
       search()
 })
  
-
    
-
      function missesDistance(Instance) {
         return Instance.close_approach_data[0].miss_distance.miles;
      }
